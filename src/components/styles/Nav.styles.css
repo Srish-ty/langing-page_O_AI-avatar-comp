@@ -1,4 +1,16 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .nfirst li {
+  list-style-type: none;
+  display: inline;
+  padding: 0.2vw 1vw;
+  margin: 0.2vw 1vw;
+}
+.nsecond li {
   list-style-type: none;
   display: inline;
   padding: 0.2vw 1vw;
@@ -8,4 +20,10 @@
 .nfirst {
   border: 1px solid red;
   margin: none;
+  display: flex;
+}
+.nsecond {
+  border: 1px solid red;
+  margin: none;
+  display: flex;
 }
